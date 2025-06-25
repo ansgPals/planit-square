@@ -1,0 +1,24 @@
+.todo-list {
+  list-style: none;
+  padding: 0 0 0 8px;
+  background: #fff;
+  max-height: calc(100dvh - 195px);
+  height: calc(100dvh - 195px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #cdcdcd transparent;
+}
+
+.todo-list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+.todo-list::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+  border-radius: 6px;
+}
+.todo-list::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 6px;
+}

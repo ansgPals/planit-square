@@ -1,0 +1,28 @@
+.todo-summary {
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e5e1dc;
+  background: #fff;
+}
+.todo-summary p {
+  color: #222;
+  font-weight: 500;
+  margin: 0;
+  font-size: 15px;
+}
+.clear-completed-btn {
+  padding: 7px 16px;
+  background: #f7f3ee;
+  color: #222;
+  border: 1px solid #e5e1dc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s, color 0.2s;
+}
+.clear-completed-btn:hover {
+  background: #222;
+  color: #fff;
+}

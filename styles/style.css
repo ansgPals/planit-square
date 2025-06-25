@@ -1,0 +1,19 @@
+@import url("./base.css");
+@import url("./input.css");
+@import url("./list.css");
+@import url("./item.css");
+@import url("./summary.css");
+@import url("./toast.css");
+
+/* 빈 상태 스타일만 남김 */
+.empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  color: #b5a99a;
+  background: #fff;
+  min-height: calc(100dvh - 195px);
+}
+.empty-state p {
+  margin: 0;
+  font-size: 15px;
+}
